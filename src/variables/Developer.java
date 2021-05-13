@@ -8,19 +8,19 @@ package variables;
 
 public class Developer {
 
-	// Variable constante con el nombre de la empresa
+	/** Variable constante con el nombre de la empresa */
 	public static final String COMPANY = "EVERIS";
 
-	// Variable de clase con el numero total de empleados
+	/** Variable de clase con el numero total de empleados */ 
 	private static int numEmployer;
 
-	// Variable con el nombre del empleado
+	/** Variable con el nombre del empleado */
 	private String name;
 
-	// Variable con los dias de vacaciones de los empleados
+	/** Variable con los dias de vacaciones de los empleados */
 	private int holidays = 21;
 
-	// Variable del numero que se asigna a cada empleado
+	/** Variable del numero que se asigna a cada empleado */
 	private int idEmployer;
 
 	/**
