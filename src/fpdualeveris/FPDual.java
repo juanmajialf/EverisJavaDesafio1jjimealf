@@ -25,6 +25,7 @@ public class FPDual {
 	 * Metodo de ejecucion
 	 * 
 	 */
+	@SuppressWarnings("static-access")
 	private static void variablesChallenge() {
 
 		// Creacion de desarrolladores

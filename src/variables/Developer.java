@@ -32,12 +32,30 @@ public class Developer {
 
 		// Comprueba que al crear al desarrollador no se pase del numero total admitido
 		if (numEmployer < 127) {
-			this.name = name;
+			this.setName(name);
 			idEmployer = numEmployer + 1;
 			numEmployer++;
 		} else
 			System.out.println("Alcanzado el maximo de empleados, imposible añadir mas empleados");
 
+	}
+
+	/**
+	 * Devuelve el nombre del desarrollador
+	 * 
+	 * @return nombre
+	 */
+	public String getName() {
+		return name;
+	}
+
+	/**
+	 * Establece el nombre del desarrollador
+	 * 
+	 * @param nombre
+	 */
+	public void setName(String name) {
+		this.name = name;
 	}
 
 	/**
